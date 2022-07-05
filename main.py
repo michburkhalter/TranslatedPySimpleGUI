@@ -8,7 +8,7 @@ def main_window(my_window=None):
     layout_mainwindow = [
         [
             [sg.Menu(menu_def, pad=(10, 10))],
-            [sg.Text(_('Select direction: '), key='txt_direction')], [sg.Combo([_('Left'), _('Right')], key='cmb_direction')],
+            [sg.Text(_('Select direction: '), key='txt_direction')], [sg.Combo([_('Left'), _('Right')], key='cmb_direction', size=20)],
             [sg.Button(_('Close'), key='btn_close')],
         ]
     ]
