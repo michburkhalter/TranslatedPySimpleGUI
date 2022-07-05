@@ -33,7 +33,6 @@ if __name__ == '__main__':
     # Create event loop
     while True:
         event, values = window.read()
-        print(event)
 
         # End program if user closes window or presses the Close button
         if event == sg.WIN_CLOSED or event == 'btn_close' or event.endswith("::close"):
